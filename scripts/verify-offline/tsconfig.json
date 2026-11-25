@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "lib": [
+      "ES2022",
+      "DOM"
+    ],
+    "types": [],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "noImplicitOverride": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": [
+    "jest-globals.d.ts",
+    "../../src/services/**/*.ts",
+    "../../src/utils/**/*.ts",
+    "../../src/storage/session.ts",
+    "../../src/features/auth/validation.ts",
+    "../../src/tests/**/*.ts"
+  ],
+  "exclude": [
+    "../../src/services/queryClient.ts",
+    "../../src/utils/rtl.ts"
+  ]
+}
