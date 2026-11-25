@@ -1,0 +1,21 @@
+{
+  "name": "dezful24",
+  "version": "0.1.0",
+  "private": true,
+  "main": "expo-router/entry",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "typecheck": "tsc --noEmit",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "test": "jest",
+    "verify:offline": "tsx scripts/verify-offline/run.ts",
+    "build:apk": "eas build -p android --profile preview",
+    "build:aab": "eas build -p android --profile production"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "testMatch": ["**/src/tests/**/*.test.ts?(x)"]
+  }
+}

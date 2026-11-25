@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "دزفول 24",
+    "slug": "dezful24",
+    "scheme": "dezful24",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "platforms": ["android"],
+    "android": {
+      "package": "ir.dezful24.app",
+      "versionCode": 1,
+      "allowBackup": false
+    },
+    "plugins": [
+      "expo-router",
+      "expo-secure-store",
+      "expo-font",
+      ["expo-localization", { "supportsRTL": true }]
+    ],
+    "experiments": { "typedRoutes": true }
+  }
+}
